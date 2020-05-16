@@ -15,3 +15,15 @@
 
 '''
 print("hello world")
+w = 2 + 2
+print(w)
+y = w + 3
+print(y)
+days = 365
+hours = 24
+minutes = 60
+seconds = 60
+year_secs = days * hours * minutes * seconds
+print(year_secs)
+
+help("print")
