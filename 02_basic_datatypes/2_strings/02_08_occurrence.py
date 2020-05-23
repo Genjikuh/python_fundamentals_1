@@ -7,3 +7,6 @@ Letter input: o
 Result: 4
 
 '''
+String_input = input("Please tell me something")
+Letter_input = input("Please tell me a letter included in your previous quote")
+print(String_input.index(Letter_input))
