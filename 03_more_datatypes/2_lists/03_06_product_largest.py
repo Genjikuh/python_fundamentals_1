@@ -9,3 +9,13 @@ that we haven't looked at yet. See if you can figure it out, otherwise
 come back to this task after you have learned about loops)
 
 '''
+numbers = input("Tell me 10 mumbers: ")
+list1 = numbers.split()
+print(list1)
+greatest = max(list1)
+print(greatest)
+
+sum = 0
+for i in list1:
+    sum += int(i)
+print("Sum =", sum)

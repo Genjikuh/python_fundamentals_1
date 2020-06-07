@@ -7,3 +7,9 @@ Example input:  1,2,3,4,5,6,7,8,9,10
 Example output: 2,4,6,8,10,9,7,5,3,1
 
 '''
+numbers = input("Tell me 10 mumbers: ")
+list1 = numbers.split()
+print(list1)
+list2 = [1 , 3, 5, 7, 9, 8, 6, 4, 2, 0]
+list1 = [list1[i] for i in list2]
+print(list1)
